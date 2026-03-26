@@ -5,7 +5,26 @@
 
 ## 1. AUDIO OVERVIEW (Deep Dive — 2 host discussion)
 
-Generate an audio overview that walks a Technical Product Manager through this system as if they're hearing about it for the first time over coffee. Start with the problem: the managerial overhead tax that TPMs pay every week. Then introduce the doctrine — volume belongs to the machine, value belongs to the human. Walk through each of the six skills in flywheel order (Interview, Draft Project Brief, Next Milestone, Hooksetup, Update, Auto-Improvement), explaining what each one does and why it exists — not just features, but the specific failure mode each skill prevents. Spend extra time on two concepts most listeners won't have encountered: semantic decay and the interview-as-investment principle. End with the honest caveat: this system amplifies whatever you feed it — rigour in, rigour out — and the practical next step: clone the GitHub repo, run setup, type /interview. Keep it conversational, not lecture-style. Dry humour is welcome.
+Generate a deep-dive audio discussion between two hosts exploring the concept of Taste in AI-assisted product management. Structure the conversation around this central argument: when AI removes the execution bottleneck, the new bottleneck is taste — knowing what to build and having the discipline to verify that what came back is what you asked for.
+
+Open with the problem: TPMs are drowning in managerial overhead — context-switching, fragmented tickets, documentation nobody reads. Introduce the doctrine early: volume belongs to the machine, value belongs to the human. Then ask the question the whole episode explores: if the machine handles the volume, what exactly is the human's job? The answer is taste.
+
+Walk through the six-skill flywheel, but frame each skill as a taste decision point rather than a feature description:
+
+- After /interview: did I ask the right questions, or did I let Claude fill in the blanks with convenient assumptions? That's taste.
+- After /draft-project-brief: are these the real constraints, or the ones that were easiest to articulate? That's taste.
+- After /next-milestone: is this sprint solving the highest-value problem, or just the most obvious one? That's taste.
+- After /hooksetup: are the stop hooks checking what actually matters, or just what's easy to lint? That's taste.
+- After /update: does this log reflect what actually happened, or a sanitised version? That's taste.
+- After /auto-improvement: will I act on these patterns, or file them and forget? That's taste.
+
+Spend time on semantic decay — the silent rot that happens when AI forgets your constraints over long sessions. Explain why this is the most dangerous failure mode: the output still looks plausible while quietly drifting from the brief. Connect this back to taste: recognising decay requires a human who remembers what was originally specified.
+
+Include the honest caveat: this system amplifies whatever you feed it. Rigour in, rigour out. Fiction in, well-formatted fiction out. The flywheel guarantees consistency, not quality. Quality is taste. Output-per-token is unit economics — it sits next to ROI on the ledger. If you're not measuring it, you're guessing.
+
+End practically: clone the GitHub repo, run setup, type /interview. The machine generates. The human evaluates. The flywheel turns.
+
+Keep it conversational — two people working this out together over coffee, not a lecture. Dry humour is welcome.
 
 ---
 
@@ -30,14 +49,19 @@ Concepts:
 - "What is the load-bearing wall in this system?"
 - "What happens if you skip /interview and go straight to /draft-project-brief?"
 
+Taste:
+- "The flywheel produced a polished, confident, wrong deliverable. Where did taste fail?"
+- "You ran /next-milestone and it proposed a sprint. How do you apply taste before confirming?"
+- "Your stop hooks all pass green but the output doesn't match what stakeholders need. What broke?"
+
 Failure modes:
-- "The flywheel is producing polished, confident, wrong output. What went wrong and where?"
 - "A naming convention has silently drifted across three sessions. Which hooksetup component should have caught this?"
 - "Your DECISIONS.md shows a reversed architectural decision with no explanation. What protocol was violated?"
+- "The /auto-improvement report flags the same blocker three sprints running. What does this tell you?"
 
 System setup:
 - "Where do skill files live in a project? Where for global access?"
 - "What does setup.sh do and what is the only prerequisite?"
 - "What is the difference between claude.md and DECISIONS.md?"
 
-Generate 20 cards minimum. Prioritise scenario-based questions over recall.
+Generate 20 cards minimum. Prioritise scenario-based questions over recall. Include at least 5 cards specifically testing taste — the human evaluation step at each stage of the flywheel.
