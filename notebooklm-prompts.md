@@ -49,7 +49,52 @@ Close with the practical setup: clone the repo, run setup.sh, type /interview. T
 
 ---
 
-## 3. FLASHCARDS
+## 3. INFOGRAPHIC — One-Page Cheat Sheet
+
+Generate a detailed one-page cheat sheet that a TPM can pin next to their monitor as a daily reference while using this system. Structure it as five horizontal bands, top to bottom:
+
+BAND 1 — THE DOCTRINE (top strip)
+Volume belongs to the machine. Value belongs to the human. The bottleneck is taste.
+
+BAND 2 — THE FLYWHEEL (visual flow)
+Show the six skills as a circular flow with arrows connecting them. For each skill show three things in compact form:
+- The command: /interview, /draft-project-brief, /next-milestone, /hooksetup, /update, /auto-improvement
+- What it produces: Capture Summary → Project Brief v1.0 → Sprint Plan → Protocol Files → Update Log → Improvement Report
+- The taste checkpoint (one question):
+  /interview: "Right questions or convenient assumptions?"
+  /draft-project-brief: "Real constraints or easy ones?"
+  /next-milestone: "Highest value or most obvious?"
+  /hooksetup: "Checking what matters or what's easy?"
+  /update: "What happened or what sounds good?"
+  /auto-improvement: "Will I act or file and forget?"
+
+BAND 3 — QUICK SETUP (compact install steps)
+Three options in columns:
+- Project install: git clone → ./setup.sh /your/project
+- Global install: cp commands/*.md ~/.claude/commands/
+- Manual: copy .md files to .claude/commands/, copy claude.md.template to project root
+
+BAND 4 — KEY CONCEPTS (three boxes side by side)
+Box 1 — Semantic Decay: AI gradually forgets your constraints over long sessions. Output looks plausible while silently drifting. /hooksetup installs session gates that catch it.
+Box 2 — The Load-Bearing Wall: claude.md governs every session. Pull it out and institutional memory collapses. Customise it, never delete it.
+Box 3 — Evolve Never Overwrite: /hooksetup patches gaps without replacing what exists. DECISIONS.md must be consulted before reversing any logged decision.
+
+BAND 5 — WHEN TO RUN WHAT (quick reference table)
+| Situation | Run This |
+| Starting a new project | /interview |
+| Interview confirmed | /draft-project-brief |
+| Brief confirmed or sprint complete | /next-milestone |
+| First time on a project or new stack | /hooksetup |
+| Sprint finished or blocker hit | /update |
+| Every 3-5 milestones or workflow feels off | /auto-improvement |
+| Scope changed mid-sprint | /update then /next-milestone |
+| Architectural decision reversed | Check DECISIONS.md first |
+
+Make it dense but scannable. Every element should answer "what do I do right now?" No explanation of why — the article covers that. This is the quick-draw reference.
+
+---
+
+## 4. FLASHCARDS
 
 Generate flashcards that test practical understanding of this system. Do not test definitions — test application and decision-making. Each card should present a scenario on the front and the correct action or concept on the back. Cover these areas:
 
