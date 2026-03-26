@@ -1,0 +1,74 @@
+# claude.md — Project Constitution
+
+> This file is the load-bearing wall. Every session, every output checks itself against this document.
+> Pull it out and the structural integrity of your institutional memory collapses.
+
+---
+
+## Project
+
+**Name:** [Your project name]
+**Owner:** [Your name or role]
+**Created:** [Date]
+
+---
+
+## Brand Voice
+
+[Define the tone and style for all outputs. Examples:]
+- Clear, responsible, pragmatic
+- Technical but accessible
+- No jargon unless the audience expects it
+
+---
+
+## Technical Constraints
+
+[List the hard boundaries. Examples:]
+- No external dependencies without approval
+- All file names use kebab-case
+- Python 3.11+, no pip install without requirements.txt update
+- Never commit secrets or credentials to any file
+
+---
+
+## Decision Logic
+
+| Situation | Action |
+|-----------|--------|
+| Routine implementation within brief | Act autonomously |
+| Scope question or ambiguity | Run /interview before proceeding |
+| Reversing a logged decision | State why, get confirmation |
+| New dependency or external integration | Pause, propose, wait for approval |
+| Anything touching live data | STOP. Not permitted. |
+
+---
+
+## Folder Architecture
+
+```
+/research    — background material, competitor analysis, data
+/logs        — session logs, update logs, weekly pulses
+/assets      — templates, images, reusable components
+/sessions    — per-session working files
+```
+
+---
+
+## Session Protocol
+
+1. Read this file completely at session start
+2. Read DECISIONS.md — do not reverse any logged decision without stating why
+3. Run drift detection: verify current state matches expectations
+4. If drift detected: STOP. Report. Wait for confirmation.
+5. Proceed with task.
+
+---
+
+## Stop Hooks
+
+[Populated by /hooksetup — leave blank until first run]
+
+---
+
+_Last updated: [Date]_
