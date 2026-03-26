@@ -30,7 +30,22 @@ Keep it conversational — two people working this out together over coffee, not
 
 ## 2. VIDEO OVERVIEW
 
-Generate a video overview structured as a practical walkthrough of the system in action. Open with the core problem: TPMs drowning in context-switching, fragmented tickets, and documentation nobody reads. Introduce Claude Code as a command-line tool, not a chatbot — it lives in your file system and works against your actual project files. Show the flywheel: Interview captures requirements, Draft Project Brief locks them into a canonical spec, Next Milestone carves a single executable sprint, Hooksetup installs drift protection, Update logs what actually happened, Auto-Improvement finds patterns and proposes fixes. For each skill, show what you type (the slash command), what Claude asks or produces, and what artifact comes out the other side. Dedicate a segment to semantic decay — explain it as the silent rot that happens when AI forgets your constraints over long sessions, and show how Hooksetup's session gates and stop hooks catch it. Include the honest caveat: this system guarantees consistency, not quality — fiction in, well-formatted fiction out. Close with the setup: clone the repo, run setup.sh, type /interview, the flywheel starts turning. Keep it direct and practical — every second should either explain a concept or show how to use it.
+Generate a video overview that opens with the central argument: when AI removes the execution bottleneck, the new bottleneck is taste. Not aesthetic preference — the discipline to evaluate whether what the machine produced is what you actually need. The machine generates volume. The human applies taste. That frame should take 30 seconds, then the rest of the video is showing how the system works in practice.
+
+Walk through each skill as a practical demonstration, but at each step pause briefly to name the taste checkpoint — the human decision that determines whether the output is worth keeping:
+
+- /interview: show the command, show Claude asking probing questions, show the Capture Summary output. Taste checkpoint: are these the right questions, or did you let Claude fill in convenient assumptions?
+- /draft-project-brief: show the command, show the canonical brief structure. Taste checkpoint: are these the real constraints, or the ones that were easiest to articulate?
+- /next-milestone: show the command, show the sprint plan with task table. Taste checkpoint: is this sprint solving the highest-value problem, or just the most obvious one?
+- /hooksetup: show the detection report, the audit scores, the installed hooks. Taste checkpoint: are the stop hooks checking what actually matters, or just what's easy to lint?
+- /update: show the debrief questions, the structured log output. Taste checkpoint: does this log reflect what actually happened, or a sanitised version?
+- /auto-improvement: show the five-lens analysis, the skills-to-build table. Taste checkpoint: will you act on these patterns, or file them and forget?
+
+Dedicate a segment to semantic decay. Explain it as the silent rot when AI forgets your constraints over long sessions — the output still looks plausible while quietly drifting. Show how Hooksetup's session gates catch it at the start of every session. Connect it back to taste: recognising decay requires a human who remembers what was originally specified.
+
+Include the honest caveat: this system guarantees consistency with whatever you feed it, not quality. Fiction in, well-formatted fiction out. Quality is the human's job.
+
+Close with the practical setup: clone the repo, run setup.sh, type /interview. The machine generates. The human evaluates. Every second of the video should either show a command being run, an output being produced, or a taste decision being made. No filler.
 
 ---
 
