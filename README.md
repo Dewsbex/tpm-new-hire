@@ -10,8 +10,6 @@ Six pre-built skills that form a complete project lifecycle — from intake inte
 
 🎬 **Video walkthrough:** [The TPM's New Hire — When AI Can Build Anything, the Bottleneck Is Taste](https://youtu.be/NA8t-cm3r0I)
 
-🎙️ **Audio deep dive:** [Replace Project Management Overhead with Local AI](https://audio.com/steven-dewsbery/audio/replace-project-management-overhead-with-local-ai)
-
 📓 **Full article + notebook:** [NotebookLM Deep Dive](https://notebooklm.google.com/notebook/8dbb96f6-b1ee-4941-8960-07edfb28a0ee)
 
 ---
@@ -181,7 +179,6 @@ Steven Dewsbery — AI strategy practitioner and Technical Product Manager.
 
 - [LinkedIn](https://www.linkedin.com/in/stevendewsbery/)
 - [Video walkthrough](https://youtu.be/NA8t-cm3r0I)
-- [Audio deep dive](https://audio.com/steven-dewsbery/audio/replace-project-management-overhead-with-local-ai)
 - [Full article + notebook](https://notebooklm.google.com/notebook/8dbb96f6-b1ee-4941-8960-07edfb28a0ee)
 
 ---
