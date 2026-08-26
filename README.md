@@ -177,7 +177,7 @@ Found a gap? Built a useful skill on top of this system? PRs welcome.
 
 Steven Dewsbery — AI strategy practitioner and Technical Product Manager.
 
-- [LinkedIn](https://www.linkedin.com/in/stevendewsbery/)
+- [LinkedIn](https://www.linkedin.com/in/stevendewsbery)
 - [Video walkthrough](https://youtu.be/NA8t-cm3r0I)
 - [Full article + notebook](https://notebooklm.google.com/notebook/8dbb96f6-b1ee-4941-8960-07edfb28a0ee)
 
