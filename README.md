@@ -31,7 +31,7 @@ A set of Claude Code slash commands that turn a command-line AI into a structure
 
 ## Requirements
 
-- [Claude Code](https://claude.ai) licence
+- [Claude Code](https://claude.com/product/claude-code) licence
 - That's it
 
 ---
