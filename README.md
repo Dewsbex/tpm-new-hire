@@ -8,8 +8,6 @@ Six pre-built skills that form a complete project lifecycle — from intake inte
 
 ## Watch & Listen
 
-🎬 **Video walkthrough:** [The TPM's New Hire — When AI Can Build Anything, the Bottleneck Is Taste](https://youtu.be/NA8t-cm3r0I)
-
 📓 **Full article + notebook:** [NotebookLM Deep Dive](https://notebook.google.com/notebook/8dbb96f6-b1ee-4941-8960-07edfb28a0ee)
 
 ---
@@ -178,7 +176,6 @@ Found a gap? Built a useful skill on top of this system? PRs welcome.
 Steven Dewsbery — AI strategy practitioner and Technical Product Manager.
 
 - [LinkedIn](https://linkedin.com/in/stevendewsbery)
-- [Video walkthrough](https://youtu.be/NA8t-cm3r0I)
 - [Full article + notebook](https://notebook.google.com/notebook/8dbb96f6-b1ee-4941-8960-07edfb28a0ee)
 
 ---
